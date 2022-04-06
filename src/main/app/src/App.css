@@ -1,0 +1,147 @@
+:root {--atos-bg: url("https://aithority.com/wp-content/uploads/2018/06/atos-1.jpg");
+  --atos-bg2: url("./img/atos.jpeg")
+  
+
+  
+}
+
+body {
+  background-color: rgb(185, 218, 247);
+  background-repeat: auto;
+  background-size: 100vw 150vh;
+}
+
+
+
+.login-box {
+  margin-top: 80px;
+  background: rgba(121, 185, 224, 0.9);
+  border-radius: 5%;
+  padding: 2%;
+}
+
+.welcome{
+  text-align: center;
+  color: #000;
+}
+.prerequisite{
+text-align: center;
+margin-top: 10px;
+font-weight: bold;
+
+}
+.info-needed{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.prerequisite-box{
+  margin-top: 20px;
+
+}
+.username{
+  color: #000;
+}
+.password{
+  color: #000;
+}
+.form-title {
+  margin-top: 2.5%;
+}
+
+.survey-form {
+  background: none;
+  margin-top: 10%;
+  height: auto;
+  color: #000;
+}
+
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 17%;
+  background-color: rgba(121, 185, 224, 0.9);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  padding: 20px 1px;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+li.active  {
+  background-color: #04AA6D;
+}
+li.active a{
+  color:white;
+}
+ol {
+  padding-left: 0rem !important; 
+}
+ol li {
+  list-style-type: none;
+  padding-left:0.5rem;
+}
+
+
+li:hover:not(.active) {
+  background-color: #555;
+  padding-left:0.5rem;
+}
+li:hover:not(.active) a {
+  color: white !important;
+}
+
+
+/* For pdf */
+.react-pdf__Page {
+  margin-top: 10px;
+}
+.react-pdf__Page__textContent {
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 5px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+
+/* For all pages */
+.all-page-container {
+  height: 100%;
+  max-height: 850px;
+  overflow: auto;
+  
+}
+
+/*HMRC FORM*/
+#leftbox {
+  float:left; 
+  background:rgb(255, 255, 255);
+  width:33%;
+  color: #000;
+}
+#middlebox{
+  float:left; 
+  background:rgb(255, 255, 255);
+  width:34%;
+  color: #000;
+
+
+}
+#rightbox{
+  float:right;
+  background:rgb(255, 255, 255);
+  width:33%;
+  color: #000;
+
+}

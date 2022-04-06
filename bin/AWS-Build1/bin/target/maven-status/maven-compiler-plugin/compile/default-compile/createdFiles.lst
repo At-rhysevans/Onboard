@@ -1,0 +1,8 @@
+com\atos\newhire\backend\BackendApplication.class
+com\atos\newhire\backend\config\AmazonConfig.class
+com\atos\newhire\backend\HelloWorldController.class
+com\atos\newhire\backend\dao\PersonDao.class
+com\atos\newhire\backend\dao\PersonDataAccessService.class
+com\atos\newhire\backend\api\PersonController.class
+com\atos\newhire\backend\model\Person.class
+com\atos\newhire\backend\service\PersonService.class
